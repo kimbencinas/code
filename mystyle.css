@@ -1,0 +1,51 @@
+.flex-container {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+}
+
+.login-form {
+    margin-top: 10px;
+    background: linear-gradient(35deg, #FF3EFC, #144E75);
+    padding: 40px;
+    width: 500px;
+    box-shadow: 10px 10px 20px #4631B4;
+    border-radius: 12%;
+}
+
+.login-header {
+    color: whitesmoke;
+    text-align: center;
+}
+
+.form-group {
+    width: 90%;
+    height: 30%;
+    text-align: center;
+    margin: 10px;
+    align-items: center;
+}
+
+.form-input {
+    color: grey;
+    border: 1px solid #eeeeee;
+    padding: 10px;
+    width: 50%;
+}
+
+.form-button {
+    color: #eeeeee;
+    border-radius: 170px;
+    padding: 10px;
+    margin: 10px;
+    width: 50%;
+    background-color: rgb(35, 0, 116)
+}
+
+.form-button:hover {
+    border-radius: 17px;
+    cursor: pointer;
+    background-color: rgba(0, 255, 242, 0.527);
+}
